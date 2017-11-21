@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TaoBao</string>
+    <string name="home">首页</string>
+    <string name="weiTao">微淘</string>
+    <string name="wenDaJia">问大家</string>
+    <string name="gouwuche">购物车</string>
+    <string name="wodetaobao">我的淘宝</string>
 </resources>

@@ -44,11 +44,12 @@ public abstract class BaseActivity<P extends BasePresenter> extends AppCompatAct
         Log.e("test", "实现BasePresenter的setPresenter方法");
     }
 
-    protected abstract void initEvent();
+
+    protected abstract void initView();
 
     protected abstract void initData(Bundle savedInstanceState);
 
-    protected abstract void initView();
+    protected abstract void initEvent();
 
     protected abstract P createPresenter();
 
