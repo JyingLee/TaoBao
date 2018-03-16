@@ -9,6 +9,7 @@ public class MainPresenter implements MainContract.Presenter {
 
     public MainPresenter(MainContract.View mView) {
         this.mView = mView;
+        mView.setPresenter(this);
     }
 
     @Override

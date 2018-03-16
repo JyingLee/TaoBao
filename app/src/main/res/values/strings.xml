@@ -1,8 +1,26 @@
 <resources>
     <string name="app_name">TaoBao</string>
+
     <string name="home">首页</string>
     <string name="weiTao">微淘</string>
     <string name="wenDaJia">问大家</string>
     <string name="gouwuche">购物车</string>
     <string name="wodetaobao">我的淘宝</string>
+
+    <string name="tianmao">天猫</string>
+    <string name="juhuasuan">聚划算</string>
+    <string name="tianmaoguoji">天猫国际</string>
+    <string name="waimai">外卖</string>
+    <string name="tianmaochaoshi">天猫超市</string>
+    <string name="chongzhizhongxin">充值中心</string>
+    <string name="feizhulvxing">飞猪旅行</string>
+    <string name="lingjinbi">领金币</string>
+    <string name="paiwai">拍卖</string>
+    <string name="fenlei">分类</string>
+
+    <string name="loading_full">没有更多了～</string>
+
+    <string name="home_first">头条</string>
+
+    <string name="toast_network_error">网络错误</string>
 </resources>

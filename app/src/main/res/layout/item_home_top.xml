@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/home_menu"
+            android:gravity="center"
+            android:text="@string/tianmao"
+            android:textColor="@color/home_top_font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/home_menu"
+            android:gravity="center"
+            android:text="@string/juhuasuan"
+            android:textColor="@color/home_top_font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/home_menu"
+            android:gravity="center"
+            android:text="@string/tianmaoguoji"
+            android:textColor="@color/home_top_font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/home_menu"
+            android:gravity="center"
+            android:text="@string/waimai"
+            android:textColor="@color/home_top_font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/home_menu"
+            android:gravity="center"
+            android:text="@string/tianmaochaoshi"
+            android:textColor="@color/home_top_font" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/home_menu"
+            android:gravity="center"
+            android:text="@string/chongzhizhongxin"
+            android:textColor="@color/home_top_font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/home_menu"
+            android:gravity="center"
+            android:text="@string/feizhulvxing"
+            android:textColor="@color/home_top_font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/home_menu"
+            android:gravity="center"
+            android:text="@string/lingjinbi"
+            android:textColor="@color/home_top_font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/home_menu"
+            android:gravity="center"
+            android:text="@string/paiwai"
+            android:textColor="@color/home_top_font" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="8dp"
+            android:drawableTop="@drawable/home_menu"
+            android:gravity="center"
+            android:text="@string/fenlei"
+            android:textColor="@color/home_top_font" />
+    </LinearLayout>
+</LinearLayout>

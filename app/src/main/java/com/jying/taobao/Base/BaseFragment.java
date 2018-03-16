@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import com.jying.taobao.TaoBaoApplication;
 import com.jying.taobao.Utils.ToastUtils;
 
+import butterknife.ButterKnife;
+
 /**
  * Created by Jying on 2017/11/19.
  */
@@ -25,6 +27,7 @@ public abstract class BaseFragment<P extends BasePresenter> extends Fragment imp
             mPresenter.onStart();
         }
         View root = inflater.inflate(bindLayout(), container, false);
+        ButterKnife.bind(this,root);
         initView();
         initData(savedInstanceState);
         initEvent();

@@ -4,7 +4,6 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 
 import com.jying.taobao.Utils.ToastUtils;
 
@@ -41,7 +40,6 @@ public abstract class BaseActivity<P extends BasePresenter> extends AppCompatAct
     @Override
     public void setPresenter(P presenter) {
         mPresenter = presenter;
-        Log.e("test", "实现BasePresenter的setPresenter方法");
     }
 
 

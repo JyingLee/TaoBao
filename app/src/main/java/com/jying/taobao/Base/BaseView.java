@@ -6,5 +6,6 @@ package com.jying.taobao.Base;
 
 public interface BaseView<P> {
     void setPresenter(P presenter);
+
     void showToast(CharSequence s);
 }
