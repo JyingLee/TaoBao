@@ -8,7 +8,7 @@ import com.jying.taobao.Module.Gouwuche.GouwucheFragment;
 import com.jying.taobao.Module.Home.HomeFragment;
 import com.jying.taobao.Module.Me.MeFragment;
 import com.jying.taobao.Module.Weitao.WeitaoFragment;
-import com.jying.taobao.Module.Wendajia.WendajiaFragment;
+import com.jying.taobao.Module.Xiaoxi.XiaoxiFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +26,7 @@ public class ViewpagerAdapter extends FragmentPagerAdapter {
         fragments.clear();
         fragments.add(HomeFragment.newInstance());
         fragments.add(WeitaoFragment.newInstance());
-        fragments.add(WendajiaFragment.newInstance());
+        fragments.add(XiaoxiFragment.newInstance());
         fragments.add(GouwucheFragment.newInstance());
         fragments.add(MeFragment.newInstance());
     }

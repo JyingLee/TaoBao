@@ -3,7 +3,7 @@
 
     <string name="home">首页</string>
     <string name="weiTao">微淘</string>
-    <string name="wenDaJia">问大家</string>
+    <string name="xiaoxi">消息</string>
     <string name="gouwuche">购物车</string>
     <string name="wodetaobao">我的淘宝</string>
 
@@ -23,4 +23,5 @@
     <string name="home_first">头条</string>
 
     <string name="toast_network_error">网络错误</string>
+
 </resources>

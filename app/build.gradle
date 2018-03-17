@@ -35,4 +35,5 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
     compile 'com.aurelhubert:ahbottomnavigation:2.1.0'
     compile 'com.oushangfeng:MarqueeLayout:1.0.4'
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
 }

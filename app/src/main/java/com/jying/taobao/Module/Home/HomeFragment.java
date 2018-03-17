@@ -2,8 +2,10 @@ package com.jying.taobao.Module.Home;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
+import android.widget.TextView;
 
 import com.jying.taobao.Adapter.HomeRecyclewViewAdapter;
 import com.jying.taobao.Base.BaseFragment;
@@ -16,6 +18,7 @@ import com.jying.taobao.View.LoadMoreRecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import butterknife.BindView;
 
@@ -35,6 +38,9 @@ public class HomeFragment extends BaseFragment<HomeContract.Presenter> implement
     private List<HomeBase> lists = new ArrayList<>();
     private HomeBase footerItem = new HomeBase();
     private int page = 1;
+    @BindView(R.id.tv_search_tips)
+    TextView tip;
+    private CountDownTimer timer;
 
     public static HomeFragment newInstance() {
         HomeFragment homeFragment = new HomeFragment();
@@ -65,6 +71,20 @@ public class HomeFragment extends BaseFragment<HomeContract.Presenter> implement
 
     @Override
     protected void initData(Bundle savedInstanceState) {
+        final List<String> tips = new ArrayList<>();
+        tips.add("JyingLee");
+        tips.add("github.com/JyingLee");
+        timer = new CountDownTimer(3000000, 2000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                tip.setText(tips.get(new Random().nextInt(2)));
+            }
+
+            @Override
+            public void onFinish() {
+
+            }
+        };
         if (adapter != null) {
             adapter.setCarouselImage(mPresenter.getCarouselImages());
         }
@@ -128,5 +148,17 @@ public class HomeFragment extends BaseFragment<HomeContract.Presenter> implement
         setRefreshLoading(true);
         page++;
         mPresenter.getBottomLists(page);
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        timer.start();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        timer.cancel();
     }
 }

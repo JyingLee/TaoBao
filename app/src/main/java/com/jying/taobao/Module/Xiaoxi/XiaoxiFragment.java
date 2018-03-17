@@ -1,4 +1,4 @@
-package com.jying.taobao.Module.Wendajia;
+package com.jying.taobao.Module.Xiaoxi;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,10 +13,10 @@ import com.jying.taobao.R;
  * Created by Jying on 2017/11/21.
  */
 
-public class WendajiaFragment extends Fragment {
+public class XiaoxiFragment extends Fragment {
 
-    public static WendajiaFragment newInstance() {
-        WendajiaFragment fragment = new WendajiaFragment();
+    public static XiaoxiFragment newInstance() {
+        XiaoxiFragment fragment = new XiaoxiFragment();
         Bundle bundle = new Bundle();
         fragment.setArguments(bundle);
         return fragment;
@@ -25,7 +25,7 @@ public class WendajiaFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_wendajia, container, false);
+        View view = inflater.inflate(R.layout.fragment_xiaoxi, container, false);
         return view;
     }
 }
